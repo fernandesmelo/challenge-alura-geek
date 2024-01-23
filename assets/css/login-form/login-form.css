@@ -1,0 +1,85 @@
+.form-login {
+    align-items: center;
+    background-color: #F5F5F5;
+    height: 320px;
+    margin: 0;
+    display: flex;
+    font-family: var(--fonte-padrao);
+    justify-content: center;
+}
+
+.form-login .form__content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.form__content .form__login__title {
+    color: var(--preto-100);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.form__content .form__login__field {
+    align-items: flex-start;
+    background-color: var(--branco);
+    border-radius: 5px;
+    color: var(--preto-50);
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px;
+    position: relative;
+}
+
+.form__login__field .form__login__input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--preto-50);
+    color: var(--preto-50);
+    padding: 12px 8px;
+    line-height: 20px;
+    transition: .25s;
+}
+
+.form__login__field .form__login__input:focus {
+    border-bottom: 2px solid var(--azul-100);
+}
+
+form .form__login__btn {
+    align-items: center;
+    background-color: var(--azul-100);
+    border: none;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    transition: .5s ease-out;
+    min-width: 40%;
+}
+
+form .form__login__btn:hover {
+    background-color: var(--azul-80);
+}
+
+@media screen and (min-width: 768px){
+    .form__content .form__login__field {
+        width: 300px;
+    }
+    
+    .form__login__field .form__login__input {
+        align-items: stretch;
+        display: flex;
+        width: 92%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .form__login__btn {
+        height: 3rem;
+        width: 100%;
+    }
+}

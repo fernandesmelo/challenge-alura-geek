@@ -1,0 +1,148 @@
+.header {
+    background: var(--branco);
+    display: flex;
+    height: 72px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header__nav__logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+}
+
+.nav__logo {
+    width: 1rem;
+    flex-shrink: 0;
+}
+
+.nav__texto {
+    width: 4.475rem;
+    height: .6475rem;
+    flex-shrink: 0;
+}
+
+.header__nav__pesquisa {
+    display: flex;
+}
+
+.header__nav__pesquisa button {
+    border: none;
+    background: none;
+}
+
+.header__pesquisa--input {
+    width: 0;
+    border: none;
+    outline: none;
+}
+
+.btn__login__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    width: 4.8rem;
+    background-color: transparent;
+    transition: ease-out .5s;
+    background: none;
+    border: 1px solid var(--azul-100);
+    color: var(--azul-100);
+    display: flex;
+    font-size: 14px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn__login__header:hover {
+    color: var(--branco);
+    background-color: var(--azul-100);
+}
+
+.lupa__img:hover > header div input {
+    width: 100px;
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+
+    .header {
+        padding: 1rem 2rem;
+        
+    }
+
+    .header__nav__pesquisa {
+        display: flex;
+        width: 17rem;
+        background: var(--cinza);
+        padding: .5rem 1rem;
+        border-radius: 20px;
+        align-items: center;
+        gap: .5rem;
+    }
+    
+    .header__pesquisa--input {
+        display: flex;
+        background: none;
+        border: none;
+        color: var(--preto-50);
+        outline: none;
+        align-items: flex-start;
+        flex: 1 0 0;
+    }
+
+    .header__pesquisa__img {
+        cursor: pointer;
+    }
+
+    .lupa__img {
+        display: none;
+    }
+
+    .btn__login__header {
+        width: 10.375rem;
+    }
+
+    .btn__pesquisa__img {
+        border: none;
+        background: transparent;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    .header__nav__logo img {
+        padding-right: 110px;
+        width: 200px;
+    }
+
+    .nav__texto {
+        width: 126px;
+    }
+
+    .header__nav__pesquisa {
+        width: 383px;
+        background-color: var(--cinza);
+    }
+
+    .header {
+        justify-content: space-around;
+    }
+    .header__nav {
+        gap: 0;
+    }
+}

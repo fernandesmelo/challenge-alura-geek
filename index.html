@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/header/header.css" />
+        <link rel="stylesheet" href="./assets/css/banner/banner.css" />
+        <link rel="stylesheet" href="./assets/css/products/products.css" />
+        <link rel="stylesheet" href="./assets/css/footer/footer.css" />
+        <title>Alura Geek - Início</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="header__nav">
+                <div class="header__nav__logo">
+                    <a class="nav__logo" href="./index.html"><img src="./assets/img/header/logo.png"
+                            alt="Controle de videogame azul e texto Alura Geek">
+                    </a>
+                </div>
+                <div class="header__nav__pesquisa">
+                    <input class="header__pesquisa--input" placeholder="O que você deseja encontrar?" type="text"
+                        id="input__pesquisa" data-input-pesquisa />
+                        <button class="btn__pesquisa__img"><img class="header__pesquisa__img" src="./assets/img/header/lupa.svg"
+                            alt="Lupa"></button>
+                </div>
+            </nav>
+            <a href="./views/login.html" class="btn__login__header">Login</a>
+        </header>
+        <main>
+            <section class="banner">
+            </section>
+            <!-- container dos produtos -->
+            <section class="products__container">
+                <div style="display: none;"></div>
+                <ul data-produtos style="display: flex; flex-direction: column;">
+                    <section class="category__container">
+                        <div class="category__header">
+                            <h2>Star Wars</h2>
+                            <a href="./views/categoria.html?section=starWars">
+                                <p>Ver tudo</p>
+                                <img src="./assets/img/products/header-arrow.svg"
+                                    alt="Flecha que redireciona para ver todos os produtos de Star Wars" />
+                            </a>
+                        </div>
+                        <ul class="category__content" id="starwars__products" data-starwars>
+                    </section>
+                    <section class="category__container" id="consoles">
+                        <div class="category__header">
+                            <h2>Consoles</h2>
+                            <a href="./views/categoria.html?section=consoles">
+                                <p>Ver tudo</p>
+                                <img src="./assets/img/products/header-arrow.svg"
+                                    alt="Flecha que redireciona para ver todos os produtos da categoria consoles" />
+                            </a>
+                        </div>
+                        <ul class="category__content" id="consoles__products" data-consoles>
+                    </section>
+                    <section class="category__container">
+                        <div class="category__header">
+                            <h2>Diversos</h2>
+                            <a href="./views/categoria.html?section=diversos">
+                                <p>Ver tudo</p>
+                                <img src="./assets/img/products/header-arrow.svg"
+                                    alt="Flecha que redireciona para ver todos os produtos da categoria de diversos" />
+                            </a>
+                        </div>
+                        <ul class="category__content" id="diversos__products" data-diversos>
+                    </section>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <a href="./index.html"><img src="./assets/img/footer/logo.png"
+                            alt="Controle de videogame azul e texto Alura Geek"></a>
+                </div>
+                <div class="footer__links">
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Quem somos nós</a></li>
+                            <li><a href="./index.html">Politica de privacidade</a></li>
+                            <li><a href="./index.html">Programa fidelidade</a></li>
+                            <li><a href="./index.html">Nossas lojas</a></li>
+                            <li><a href="./index.html">Quero ser franqueado</a></li>
+                            <li><a href="./index.html">Anuncie aqui</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__form">
+                <h2 class="footer__form__title">Fale conosco</h2>
+                <form class="form">
+                    <div class="form__field">
+                        <label for="nome" class="footer__form__label">Nome</label>
+                        <input class="footer__form__input" type="text" name="nome" id="nome" placeholder="Seu nome" required
+                            minlength="3" maxlength="40">
+                    </div>
+                    <div class="form__field">
+                        <textarea class="footer__form__textarea" rows="5" cols="40" id="mensagem" name="mensagem"
+                            placeholder="Escreva sua mensagem" required minlength="2" maxlength="120"></textarea>
+                    </div>
+                    <button class="footer__form__btn" id="formcontato__botao" type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+        </footer>
+        <div class="dev">
+            <p>Desenvolvido por Laércio Fernandes</p>
+            <p>2023</p>
+        </div>
+    </body>
+    <script type="module" src="./assets/js/criaBanner.js"></script>
+    <script type="module" src="./assets/js/controllers/exibeProdutos-controllers.js"></script>
+    <script type="module" src="./assets/js/controllers/pesquisaProduto-controllers.js"></script>
+</html>
