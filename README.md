@@ -3,7 +3,7 @@
 O [AluraGeek](https://fernandesmelo.github.io/challenge-alura-geek/), foi desenvolvido através do challenge do Programa One - Oracle Next Education.
 Esse projeto se trata de um e-commerce, tornando a empresa AluraGeek digital.
 
-[screen-capture (1).webm](https://github.com/fernandesmelo/challenge-portfolio/assets/113717317/683bf7ba-97b4-414c-8381-eb381f68763b)
+[screen-capture.webm](https://github.com/fernandesmelo/challenge-alura-geek/assets/113717317/4d93a29a-801f-444a-a531-4c06e575e29b)
 
 ## 📝 Sobre o Desafio - Descrição
 A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas, para isso desejam implementar um e-commerce e levar a empresa ao próximo patamar, se tornar mais digital.
