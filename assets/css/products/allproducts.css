@@ -115,7 +115,7 @@
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .products__container {
         padding: 2rem;
     }
@@ -132,7 +132,7 @@
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     .products__container {
         gap: 4rem;
         padding: 4rem;
