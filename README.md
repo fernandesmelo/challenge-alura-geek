@@ -1,61 +1,28 @@
 # AluraGeek
 
 O [AluraGeek](https://fernandesmelo.github.io/challenge-alura-geek/), foi desenvolvido através do challenge do Programa One - Oracle Next Education.
-Esse projeto se trata de um e-commerce, que apresenta informações sobre minha jornada profissional, habilidades, hobbies, cursos e projetos, além de incluir um formulário de contato com validação.
+Esse projeto se trata de um e-commerce, tornando a empresa AluraGeek digital.
 
 [screen-capture (1).webm](https://github.com/fernandesmelo/challenge-portfolio/assets/113717317/683bf7ba-97b4-414c-8381-eb381f68763b)
 
 ## 📝 Sobre o Desafio - Descrição
+A empresa AluraGeek está precisando trazer mais clientes e aumentar suas vendas, para isso desejam implementar um e-commerce e levar a empresa ao próximo patamar, se tornar mais digital.
+
+Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar o site e o e-commerce deve conter os seguintes requisitos:
 ### *Requisitos*
-✔️ Deve ter um menu de navegação;
+✔️ Uma página inicial que contenha um botão "iniciar sessão" e um buscador de produtos oferecidos pela empresa;
 
-✔️ Deve ter uma imagem que servirá de banner;
+✔️ Um banner que contenha descontos, promoções, ou informações relevantes do momento;
 
-✔️ Deve conter uma seção "sobre mim":
+✔️ Uma galeria com as informações dos produtos como: a imagem, o nome do produto, o preço e um link que leva até a página de descrição do produto;
 
-✔️ Deve ter uma foto de perfil;
+✔️ Uma página do produto que contenha a imagem, o nome, a descrição e o preço;
 
-✔️ Deve incluir um link para as suas redes sociais;
+✔️ Um rodapé com formulário para contato e outras informações relevantes;
 
-✔️ Deve conter estes dados pessoais:
+✔️ Menu administrador para eles conseguirem adicionar, editar, buscar ou eliminar produtos da loja.
 
-    Nome;
-
-    Idade;
-
-    Nacionalidade;
-
-    Biografia.
-
-✔️ Deve ter uma seção de Hobbies e Soft Skills;Por exemplo:Hobbies: Atividades que você gosta de fazer;Soft Skills: Comunicação, liderança, empatia, etc.
-
-✔️ Deve ter uma seção de formações e cursos;Aqui você pode colocar as formações e cursos que você já tenha feito, mesmo que não seja na área da programação. (Coloque as mais importantes)
-
-✔️ Deve ter uma  seção de experiência em programação;Aqui você pode colocar os projetos que você já realizou anteriormente, como, por exemplo: os projetos do challenge iniciante em programação.
-
-✔️ Deve ter um formulário de contato com os campos para:
-
-    Email;
-
-    Nome;
-
-    Assunto;
-
-    Mensagem.
-
-✔️ Deve ter um rodapé com as informações da pessoa que desenvolveu o portfólio;
-
-### *Extras*
-A página deve conter um botão que permita visualizar, em uma nova aba, uma versão em PDF do seu currículo.
-
-### *Funcionalidades do Projeto*
-- `Funcionalidade 1`: O site possui um menu de navegação que permite aos usuários acessar diferentes seções do portfólio, como "Sobre Mim," "Skills," "Hobbies," "Formações e Cursos," "Projetos," e "Contato."
-- `Funcionalidade 2`: O layout do site é responsivo, adaptando-se a diferentes tamanhos de tela, tornando-o adequado para dispositivos móveis e desktops.
-- `Funcionalidade 3`: Existem links para as contas de mídia social do desenvolvedor (LinkedIn, GitHub e Instagram) e um link para download do currículo em PDF.
-- `Funcionalidade 4`: O site exibe informações sobre projetos desenvolvidos pelo autor, incluindo descrição, tecnologias utilizadas, links para repositórios no GitHub e links para implantações.
-- `Funcionalidade 5`: Uma seção "Contato" inclui um formulário que os visitantes podem preencher com seu nome, e-mail, assunto e mensagem. Há também uma validação para garantir que os campos estejam preenchidos corretamente.
-- `Funcionalidade 6`: Após o envio do formulário, os usuários recebem uma mensagem de confirmação.
-- `Funcionalidade 7`: Após o envio bem-sucedido, os campos do formulário são limpos.
+✔️ É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
 ## 🚀 Começando
 Essas instruções permitirão que você tenha uma cópia do projeto em execução na sua máquina local para desenvolvimento e testes.
