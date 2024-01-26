@@ -47,7 +47,7 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
 A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
 
 ### 🎉 Parabéns!
-Agora você tem o projeto React Native instalado, configurado e rodando localmente e na web. Bom desenvolvimento!
+Agora você tem o projeto HTML, CSS, e JavaScript instalado e rodando localmente. Bom desenvolvimento!
 
 ## ⚙️ Executando os Testes
 
