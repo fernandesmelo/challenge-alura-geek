@@ -33,17 +33,21 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
 * [Navegador Web](https://www.google.com/chrome/) para visualizar o projeto localmente.
 * [Visual Studio Code](https://code.visualstudio.com/) para acessar e editar os códigos.
 
-### 🔧 Instalação
+1. Clone este repositório:
+   <br>
+   ```git clone https://github.com/fernandesmelo/projeto-integrador-etepd.git```
 
-1. Clone este repositório para o seu computador.
-2. Abra o Visual Studio Code.
-3. Clique em "Arquivo" (ou "File") no canto superior esquerdo da janela.
-4. Selecione "Abrir Pasta" (ou "Open Folder").
-5. Após selecionar a pasta, ela será aberta no VSCode.
-6. Você verá a estrutura de pastas e arquivos do projeto no painel lateral esquerdo.
-7. Abra o arquivo index.html em um navegador web.
-
+2. Abra o Visual Studio Code:
+   * Clique em "Arquivo" (ou "File") no canto superior esquerdo da janela.
+   * Selecione "Abrir Pasta" (ou "Open Folder").
+   * Após selecionar a pasta, ela será aberta no VSCode.
+   * Você verá a estrutura de pastas e arquivos do projeto no painel lateral esquerdo.
+   * A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
+     
 A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
+
+### 🎉 Parabéns!
+Agora você tem o projeto React Native instalado, configurado e rodando localmente e na web. Bom desenvolvimento!
 
 ## ⚙️ Executando os Testes
 
