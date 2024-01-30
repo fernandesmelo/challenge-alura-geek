@@ -24,18 +24,20 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 
 ✔️ É muito importante que o site seja responsivo para dar aos clientes a facilidade de comprar através de dispositivos mobiles.
 
+
 ## 🚀 Começando
 Essas instruções permitirão que você tenha uma cópia do projeto em execução na sua máquina local para desenvolvimento e testes.
 
 ### 📋 Pré-requisitos
-
 Antes de começar, certifique-se de ter instalado em seu sistema operacional:
 * [Navegador Web](https://www.google.com/chrome/) para visualizar o projeto localmente.
 * [Visual Studio Code](https://code.visualstudio.com/) para acessar e editar os códigos.
 
+### 🔧 Instalação
+
 1. Clone este repositório:
    <br>
-   ```git clone https://github.com/fernandesmelo/challenge-alura-geek.git```
+   ```git clone https://github.com/fernandesmelo/projeto-integrador-etepd.git```
 
 2. Abra o Visual Studio Code:
    * Clique em "Arquivo" (ou "File") no canto superior esquerdo da janela.
@@ -43,11 +45,27 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
    * Após selecionar a pasta, ela será aberta no VSCode.
    * Você verá a estrutura de pastas e arquivos do projeto no painel lateral esquerdo.
    * A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
-     
-A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
+
+### 📱 Rodando o Projeto
+1. Instale as Dependências:
+   <br>
+   ```npm install```
+2. Executando o Projeto Localmente:
+   <br>
+   * Utilize um servidor local para executar o projeto, você pode usar ferramentas como Live Server ou qualquer outro servidor web local.
+   * Exemplo usando Live Server:
+   <br>
+     ```npm install -g live-server```
+     ```live-server ```
+3. Visualizando o Projeto no Navegador:
+   * Abra o seu navegador web e acesse o endereço fornecido pelo servidor local para visualizar o projeto.
+5. Explorando o Código no VSCode:
+   * Continue explorando e editando o código no VSCode. As alterações serão refletidas automaticamente no aplicativo em execução.
 
 ### 🎉 Parabéns!
-Agora você tem o projeto HTML, CSS, e JavaScript instalado e rodando localmente. Bom desenvolvimento!
+Agora você tem o projeto React Native instalado, configurado e rodando localmente e na web. Bom desenvolvimento!
+
+
 
 ## ⚙️ Executando os Testes
 
