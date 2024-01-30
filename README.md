@@ -86,12 +86,8 @@ Próximos passos...
 
 * **JavaScript**: A linguagem JavaScript foi usada para adicionar interatividade ao site, como a validação do formulário de contato e a implementação de funcionalidades específicas, como menus de navegação responsivos.
 
-* **Google Fonts**: Para melhorar a tipografia do site, as fontes da Google Fonts foram incorporadas para fornecer uma variedade de estilos de fontes, como Montserrat e Poppins.
+* **Arquivos .json**: db.json foi usado como um banco de dados simples para aplicativos web, enquanto package.json e package-lock.json são usados para gerenciar dependências e metadados do projeto em projetos Node.js, garantindo consistência e reprodutibilidade em diferentes ambientes de desenvolvimento e produção.
 
-* **Media Queries:** Media queries em CSS foram empregadas para criar uma experiência responsiva, adaptando o layout e os estilos do site para diferentes tamanhos de tela, como dispositivos móveis e desktops.
-
-* **Links Externos**: Links externos foram incorporados para direcionar os visitantes para as contas de mídia social do desenvolvedor, bem como para permitir o download do currículo em PDF.
-  
 ## 👨🏽‍💻 Versão das Tecnologias
 
 * HTML5
