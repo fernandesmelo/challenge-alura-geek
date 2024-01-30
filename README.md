@@ -54,8 +54,7 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
    <br>
    * Utilize um servidor local para executar o projeto, você pode usar ferramentas como Live Server ou qualquer outro servidor web local.
    * Exemplo usando Live Server:
-   <br>
-     ```npm install -g live-server```
+     ```npm install -g live-server``` 
      ```live-server ```
 3. Visualizando o Projeto no Navegador:
    * Abra o seu navegador web e acesse o endereço fornecido pelo servidor local para visualizar o projeto.
