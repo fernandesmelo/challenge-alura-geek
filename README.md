@@ -64,12 +64,6 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
 ### 🎉 Parabéns!
 Agora você tem o projeto React Native instalado, configurado e rodando localmente e na web. Bom desenvolvimento!
 
-
-
-## ⚙️ Executando os Testes
-
-Próximos passos...
-
 ## 🛠️ Construído com
 
 <div style="display: inline-block"><br/>
@@ -97,6 +91,9 @@ Próximos passos...
 ## ✒️ Autor
 
 * **Laércio Fernandes** - [LinkedIn](https://www.linkedin.com/in/laercio-fernandes/)
+
+## ⚙️ Executando os Testes
+Próximos passos...
 
 ## 🎁 Expressões de Gratidão
 
